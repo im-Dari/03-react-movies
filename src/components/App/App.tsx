@@ -57,7 +57,7 @@ export default function App() {
       {!loading && !error && movies.length > 0 && (
         <MovieGrid movies={movies} onSelect={handleSelect} />
       )}
-
+      
       {selectedMovie && (
         <MovieModal movie={selectedMovie} onClose={closeModal} />
       )}
