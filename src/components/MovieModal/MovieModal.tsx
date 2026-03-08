@@ -55,7 +55,7 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
   src={
     movie.poster_path
       ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-      : "/no-image.png"
+      : "/no-image.svg"
   }
   alt={movie.title}
   className={css.image}
